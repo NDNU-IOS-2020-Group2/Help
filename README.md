@@ -1,7 +1,6 @@
 
 
-# APP_NAME_HERE
-Help!
+# Help!
 
 ## Table of Contents
 1. [Overview](#Overview)
