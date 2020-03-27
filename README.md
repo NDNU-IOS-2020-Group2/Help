@@ -10,7 +10,7 @@ Help!
 2. [Schema](#Schema)
 
 ## Overview
-[APP NAME] is a volunteer driven app used to assist people
+Help! is a volunteer driven app used to assist people
 in emergency situations, the app will use a GPS system to let
 people alert others in their immediate area along with a short 
 Message if applicable. 
