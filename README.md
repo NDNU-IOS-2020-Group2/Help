@@ -55,20 +55,26 @@ Sherrys going took a fall and just needs somebody who can get her back on her fe
 Andrew has Autism and has break downs if he uses the app he can alert someone nearby(or one of his family members with the app on their phones) to assist him
 Melanie has panic attacks, she can alert people nearby who may be able to calm her down.
 Ally is a nurse and has the app on her phone in case someone nearby has 
-* ...
+
 
 **Optional Nice-to-have Stories**
 
 Ashton is seriously bleeding and needs to alert 911 and also alert someone nearby to help him while they arrive
 	
-* ...
+
 **Issues created from user stores**
 Andrew, who has autism opens the app while upstars in his home as he is having a breakdown and needs assistance, the app is able to log on and recognize that it is andrew logging on, after opening the app Andrew presses the alert button and can see that his sister, who the app recognizes is trusted by andrew is closeby. Andrew's sisters phone alerts her of andrews distress and she is able to quickly go downstairs to assit her brother.
+
 Issues:
+
 -App must recognize andrew when he opens the app
+
 -Andrews sister must be recognized by the app as being trusted by andrew
+
 -Andrew is able to press the alert button after opening the app and is able to choose to alert his sister with the app recognizing her locaton
+
 -Andrews sister must get the alert on her phone quickly and with ease to make sure andrew is helped in a tmely matter
+
 ### 2. Screen Archetypes
 
 Main Screen has alert button to alert others nearby and add optional text
