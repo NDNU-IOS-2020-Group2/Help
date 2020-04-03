@@ -66,6 +66,7 @@ Ashton is seriously bleeding and needs to alert 911 and also alert someone nearb
 	
 
 **Issues created from user stores**
+
 Example 1:
 
 Andrew, who has autism opens the app while upstars in his home as he is having a breakdown and needs assistance, the app is able to log on and recognize that it is andrew logging on, after opening the app Andrew presses the alert button and can see that his sister, who the app recognizes is trusted by andrew is closeby. Andrew's sisters phone alerts her of andrews distress and she is able to quickly go downstairs to assit her brother.
