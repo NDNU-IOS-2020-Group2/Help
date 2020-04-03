@@ -62,7 +62,13 @@ Ally is a nurse and has the app on her phone in case someone nearby has
 Ashton is seriously bleeding and needs to alert 911 and also alert someone nearby to help him while they arrive
 	
 * ...
-
+**Issues created from user stores**
+Andrew, who has autism opens the app while upstars in his home as he is having a breakdown and needs assistance, the app is able to log on and recognize that it is andrew logging on, after opening the app Andrew presses the alert button and can see that his sister, who the app recognizes is trusted by andrew is closeby. Andrew's sisters phone alerts her of andrews distress and she is able to quickly go downstairs to assit her brother.
+Issues:
+-App must recognize andrew when he opens the app
+-Andrews sister must be recognized by the app as being trusted by andrew
+-Andrew is able to press the alert button after opening the app and is able to choose to alert his sister with the app recognizing her locaton
+-Andrews sister must get the alert on her phone quickly and with ease to make sure andrew is helped in a tmely matter
 ### 2. Screen Archetypes
 
 Main Screen has alert button to alert others nearby and add optional text
