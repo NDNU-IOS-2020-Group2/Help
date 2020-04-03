@@ -81,7 +81,7 @@ Issues:
 
 -Andrews sister must get the alert on her phone quickly and with ease to make sure andrew is helped in a tmely matter
 
-Example 2
+Example 2:
 
 Ally is a nurse and has the app on her phone in case someone nearby has a medical emergency.
 
