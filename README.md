@@ -52,9 +52,12 @@ in certain scenarios and prevent abuse of system
 
 **Required Must-have Stories**
 Sherrys going took a fall and just needs somebody who can get her back on her feet Sherry uses the app and alerts Joe who is nearby and helps her get back up.
+
 Andrew has Autism and has break downs if he uses the app he can alert someone nearby(or one of his family members with the app on their phones) to assist him
+
 Melanie has panic attacks, she can alert people nearby who may be able to calm her down.
-Ally is a nurse and has the app on her phone in case someone nearby has 
+
+Ally is a nurse and has the app on her phone in case someone nearby has a medical emergency
 
 
 **Optional Nice-to-have Stories**
@@ -63,6 +66,8 @@ Ashton is seriously bleeding and needs to alert 911 and also alert someone nearb
 	
 
 **Issues created from user stores**
+Example 1:
+
 Andrew, who has autism opens the app while upstars in his home as he is having a breakdown and needs assistance, the app is able to log on and recognize that it is andrew logging on, after opening the app Andrew presses the alert button and can see that his sister, who the app recognizes is trusted by andrew is closeby. Andrew's sisters phone alerts her of andrews distress and she is able to quickly go downstairs to assit her brother.
 
 Issues:
@@ -75,6 +80,15 @@ Issues:
 
 -Andrews sister must get the alert on her phone quickly and with ease to make sure andrew is helped in a tmely matter
 
+Example 2
+
+Ally is a nurse and has the app on her phone in case someone nearby has a medical emergency.
+
+Issues:
+
+The app can recognize Ally as a medical professional
+
+The app can alert Ally above other members of the app who may not be able to assist as well as a trained proffessional or in cases where only a proffessional could assist
 ### 2. Screen Archetypes
 
 Main Screen has alert button to alert others nearby and add optional text
