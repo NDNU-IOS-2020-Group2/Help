@@ -87,7 +87,7 @@ Main Screen has alert button to alert others nearby and add optional text
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/NDNU-IOS-2020-Group2/Help/blob/master/Wireframes.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
