@@ -168,7 +168,7 @@ Main Screen has alert button to alert others nearby and add optional text
 #### Help
 | Property        | Type       | Description                          |
 | --------------- | ---------- | ------------------------------------ |
-| id              | String     | unique ID for contact (default field)|
+| id              | String     | unique ID for help (default field)   |
 | user            | Pointer    | pointer to user                      |
 | createdAt       | DateTime   | date the help request was created    |
 | location        | String     | exact location of user when requested|
