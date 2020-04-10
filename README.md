@@ -122,6 +122,50 @@ Main Screen has alert button to alert others nearby and add optional text
 
 ## Schema 
 [This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+#### User
+| Property        | Type       | Description                         |
+| --------------- | ---------- | ----------------------------------- |
+| id              | String     | unique ID for user (default field)  |
+| firstName       | String     | user's first name                   |
+| lastName        | String     | user's last name                    |
+| email           | String     | user's email address                |
+| phoneNumber     | String     | user's primary phone number         |
+| address         | String     | user's address                      |
+| city            | String     | user's city                         |
+| image           | File       | image for user profile              |
+| preconditions   | Array      | list of pre-existing med conditions |
+| emergencyContact| Pointer    | contact person                      |
+| preferredComm   | String     | preferred method of communication   |
+| createdAt       | DateTime   | date user profile was created       |
+
+#### MedicalProfessional
+| Property        | Type       | Description                         |
+| --------------- | ---------- | ----------------------------------- |
+| id              | String     | unique ID for user (default field)  |
+| firstName       | String     | professional's first name           |
+| lastName        | String     | professional's last name            |
+| title           | String     | professional title (Dr, nurse, etc) |
+| workplace       | String     | professional workplace              |
+| email           | String     | professional's email address        |
+| phoneNumber     | String     | professional's primary phone number |
+| address         | String     | professional's address              |
+| city            | String     | professional's city                 |
+| image           | File       | image for profile                   |
+| certifications  | Array      | list of medical certifications      |
+| createdAt       | DateTime   | date user profile was created       |
+
+#### EmergencyContact
+| Property        | Type       | Description                          |
+| --------------- | ---------- | ------------------------------------ |
+| id              | String     | unique ID for contact (default field)|
+| user            | Pointer    | pointer to user                      |
+| firstName       | String     | contact's last name                  |
+| lastName        | String     | contact's last name                  |
+| email           | String     | contact's email address              |
+| phoneNumber     | String     | contact's primary phone number       |
+| address         | String     | contact's address                    |
+
+
 ### Networking
