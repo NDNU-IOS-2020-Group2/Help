@@ -121,8 +121,6 @@ Main Screen has alert button to alert others nearby and add optional text
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
-
 ### Models
 #### User
 | Property        | Type       | Description                         |
@@ -167,5 +165,23 @@ Main Screen has alert button to alert others nearby and add optional text
 | phoneNumber     | String     | contact's primary phone number       |
 | address         | String     | contact's address                    |
 
+#### Help
+| Property        | Type       | Description                          |
+| --------------- | ---------- | ------------------------------------ |
+| id              | String     | unique ID for contact (default field)|
+| user            | Pointer    | pointer to user                      |
+| createdAt       | DateTime   | date the help request was created    |
+| location        | String     | exact location of user when requested|
 
 ### Networking
+- Home Screen
+   - (Read/GET) Query user basic info
+   - (Create/POST) Create a new help instance
+- Create Help
+   - (Read/GET) Query all medical professionals who are within a one-mile radius
+   - (Create/POST) Create a new help object
+- User Profile Screen
+   - (Read/GET) Query logged in user object
+   - (Update/PUT) Update user profile image
+- Medical Professional Profile Screen
+   - (Read/GET) Query object medical professional selected
