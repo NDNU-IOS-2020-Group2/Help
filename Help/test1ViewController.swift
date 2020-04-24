@@ -1,5 +1,5 @@
 //
-//  test.swift
+//  test1ViewController.swift
 //  Help
 //
 //  Created by Eric Cai on 4/23/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class test: UIViewController {
+class test1ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
