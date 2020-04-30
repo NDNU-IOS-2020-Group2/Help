@@ -15,6 +15,11 @@ people alert others in their immediate area along with a short
 Message if applicable. 
 [Description of your app]
 
+## 4-23 Update
+Next week: location and GPS, ste up the database for users, and make the UI better
+<img src='https://github.com/NDNU-IOS-2020-Group2/Help/blob/master/4-23.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />#
+
+
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:**
