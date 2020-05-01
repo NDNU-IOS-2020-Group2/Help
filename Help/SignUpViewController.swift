@@ -7,10 +7,17 @@
 //
 
 import UIKit
+import Parse
 
 class SignUpViewController: UIViewController {
 
     @IBOutlet weak var birthdayText: UITextField!
+    @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var firstnameField: UITextField!
+    @IBOutlet weak var lastnameField: UITextField!
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var phoneField: UITextField!
     
     let datePicker = UIDatePicker()
     
@@ -44,6 +51,20 @@ class SignUpViewController: UIViewController {
         self.view.endEditing(true)
     }
 
+    @IBAction func onSignup(_ sender: Any) {
+        let user = PFUser()
+        user.username = usernameField.text
+        user.password = passwordField.text
+        
+        user.signUpInBackground { (success, error) in
+            if success{
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            } else {
+                print("Error: \(error?.localizedDescription)")
+            }
+            
+    }
+    
     /*
     // MARK: - Navigation
 
