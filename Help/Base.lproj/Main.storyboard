@@ -223,7 +223,6 @@
                         <outlet property="birthdayText" destination="H5v-JV-t6e" id="Lmc-BZ-ffc"/>
                         <outlet property="emailField" destination="Mtz-gf-H3h" id="6ft-9t-1Nc"/>
                         <outlet property="firstnameField" destination="odW-7t-O9T" id="9sJ-If-FTi"/>
-                        <outlet property="gender" destination="js0-6K-Dc2" id="U5E-XG-HRy"/>
                         <outlet property="lastnameField" destination="xG8-cQ-e7b" id="LHW-JL-PZM"/>
                         <outlet property="passwordField" destination="Bx2-Wv-koO" id="3yO-vo-hIZ"/>
                         <outlet property="phoneField" destination="WEF-Gn-MDb" id="oeI-3N-fv3"/>
@@ -299,6 +298,7 @@
         <!--Navigation Controller-->
         <scene sceneID="2XX-Op-R6F">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cYb-9M-QPL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fns-hr-huv" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DHN-AD-LNo">
@@ -310,7 +310,6 @@
                         <segue destination="JUo-8i-wgG" kind="relationship" relationship="rootViewController" id="4Q7-Hq-cOD"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cYb-9M-QPL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1052" y="106"/>
         </scene>
@@ -365,7 +364,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="fns-hr-huv" kind="showDetail" id="FjM-uB-Nb9"/>
+                                    <segue destination="fns-hr-huv" kind="presentation" id="QhB-KW-zzQ"/>
                                 </connections>
                             </button>
                         </subviews>
