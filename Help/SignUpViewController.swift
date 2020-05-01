@@ -35,7 +35,7 @@ class SignUpViewController: UIViewController {
         let doneBtn = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(donePressed))
         toolbar.setItems([doneBtn], animated: true)
         
-        birthdayText.inputAccessoryView = toolbar
+//        birthdayText.inputAccessoryView = toolbar
         birthdayText.inputView = datePicker
         datePicker.datePickerMode = .date
         
@@ -56,7 +56,7 @@ class SignUpViewController: UIViewController {
         
         user.signUpInBackground { (success, error) in
             if success{
-                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+                self.performSegue(withIdentifier: "signupSegue", sender: nil)
             } else {
                 print("Error: \(error?.localizedDescription)")
             }
