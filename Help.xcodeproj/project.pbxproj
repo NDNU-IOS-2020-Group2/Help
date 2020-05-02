@@ -11,6 +11,7 @@
 		3D058AB7BD3D6BE1FF59EC21 /* Pods_Help_HelpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3156B0A800BDCCBCE09F79B9 /* Pods_Help_HelpUITests.framework */; };
 		9D589FA46752E9FB3B1514D9 /* Pods_HelpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF865A1E960141786A8DECE9 /* Pods_HelpTests.framework */; };
 		EFB09DF5431B3CD16ABA3F4F /* Pods_Help.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDC6AA5CC3C557E693F35B1 /* Pods_Help.framework */; };
+		F1142801245D0AEA00584D3B /* gpsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1142800245D0AEA00584D3B /* gpsViewController.swift */; };
 		F122C4BA245BCB5800CBF32F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122C4B9245BCB5800CBF32F /* LoginViewController.swift */; };
 		F1883F062450CDB700D25A9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1883F052450CDB700D25A9F /* AppDelegate.swift */; };
 		F1883F082450CDB700D25A9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1883F072450CDB700D25A9F /* SceneDelegate.swift */; };
@@ -49,6 +50,7 @@
 		9125E0AAE246426632C6F9D5 /* Pods-Help.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Help.release.xcconfig"; path = "Target Support Files/Pods-Help/Pods-Help.release.xcconfig"; sourceTree = "<group>"; };
 		C55EC65D6DC58CDC2CC6544C /* Pods-Help.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Help.debug.xcconfig"; path = "Target Support Files/Pods-Help/Pods-Help.debug.xcconfig"; sourceTree = "<group>"; };
 		C6507A6257E0FC06D556B6FB /* Pods-Help-HelpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Help-HelpUITests.debug.xcconfig"; path = "Target Support Files/Pods-Help-HelpUITests/Pods-Help-HelpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1142800245D0AEA00584D3B /* gpsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gpsViewController.swift; sourceTree = "<group>"; };
 		F122C4B9245BCB5800CBF32F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F1883F022450CDB700D25A9F /* Help.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Help.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1883F052450CDB700D25A9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				07BF194B2452691F000FED96 /* SignUpViewController.swift */,
 				F122C4B9245BCB5800CBF32F /* LoginViewController.swift */,
 				F1890E40245BDDE00049489B /* ProfileViewController.swift */,
+				F1142800245D0AEA00584D3B /* gpsViewController.swift */,
 			);
 			path = Help;
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 				F1883F0A2450CDB700D25A9F /* ViewController.swift in Sources */,
 				F1883F062450CDB700D25A9F /* AppDelegate.swift in Sources */,
 				07BF194C2452691F000FED96 /* SignUpViewController.swift in Sources */,
+				F1142801245D0AEA00584D3B /* gpsViewController.swift in Sources */,
 				F122C4BA245BCB5800CBF32F /* LoginViewController.swift in Sources */,
 				F1883F082450CDB700D25A9F /* SceneDelegate.swift in Sources */,
 			);

@@ -370,15 +370,23 @@
             </objects>
             <point key="canvasLocation" x="2241" y="76"/>
         </scene>
-        <!--Home-->
-        <scene sceneID="oHV-9O-B4f">
+        <!--Item-->
+        <scene sceneID="e0F-bh-WlS">
             <objects>
-                <viewController id="EbS-Mo-PNf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="gQb-vg-hQb"/>
+                <viewController id="1NS-sM-nJL" customClass="gpsViewController" customModule="Help" customModuleProvider="target" sceneMemberID="viewController">
+                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="ErH-3Q-fFg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </mapView>
+                    <tabBarItem key="tabBarItem" title="Item" id="T6n-Ul-ogH"/>
+                    <navigationItem key="navigationItem" id="xLN-yT-7az"/>
+                    <connections>
+                        <outlet property="map" destination="ErH-3Q-fFg" id="jzz-Gs-2pk"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LXg-9b-i8O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="msN-lU-Bna" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135" y="-648"/>
+            <point key="canvasLocation" x="134.78260869565219" y="65.625"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="G1q-W8-tp9">
@@ -390,13 +398,30 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="EbS-Mo-PNf" kind="relationship" relationship="viewControllers" id="EYR-NP-sA5"/>
-                        <segue destination="9cK-EV-yFw" kind="relationship" relationship="viewControllers" id="hVO-wS-mIU"/>
+                        <segue destination="9t3-Sn-Tpb" kind="relationship" relationship="viewControllers" id="U3H-9d-R5Y"/>
+                        <segue destination="9cK-EV-yFw" kind="relationship" relationship="viewControllers" id="8sq-bN-PsT"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iwu-nt-bfe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1051" y="-1380"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="9B2-1p-lQj">
+            <objects>
+                <navigationController id="9t3-Sn-Tpb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="wrE-ZA-sP8"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mj4-T6-KQ0">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1NS-sM-nJL" kind="relationship" relationship="rootViewController" id="aM9-j5-yGV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dZd-lL-goE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="-648"/>
         </scene>
         <!--Profile-->
         <scene sceneID="Bw6-oT-9wu">
