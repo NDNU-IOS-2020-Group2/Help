@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		077513F5245CEFA900EF8B95 /* HelpIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 077513F4245CEFA800EF8B95 /* HelpIcon.png */; };
 		07BF194C2452691F000FED96 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BF194B2452691F000FED96 /* SignUpViewController.swift */; };
 		3D058AB7BD3D6BE1FF59EC21 /* Pods_Help_HelpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3156B0A800BDCCBCE09F79B9 /* Pods_Help_HelpUITests.framework */; };
 		9D589FA46752E9FB3B1514D9 /* Pods_HelpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF865A1E960141786A8DECE9 /* Pods_HelpTests.framework */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		077513F4245CEFA800EF8B95 /* HelpIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HelpIcon.png; path = Assets.xcassets/HelpIcon.png; sourceTree = "<group>"; };
 		07BF194B2452691F000FED96 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3156B0A800BDCCBCE09F79B9 /* Pods_Help_HelpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Help_HelpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A0283C6B0D6997DE0D7C19 /* Pods-HelpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpTests.release.xcconfig"; path = "Target Support Files/Pods-HelpTests/Pods-HelpTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				F1883F072450CDB700D25A9F /* SceneDelegate.swift */,
 				F1883F092450CDB700D25A9F /* ViewController.swift */,
 				F1883F0B2450CDB700D25A9F /* Main.storyboard */,
+				077513F4245CEFA800EF8B95 /* HelpIcon.png */,
 				F1883F0E2450CDBA00D25A9F /* Assets.xcassets */,
 				F1883F102450CDBA00D25A9F /* LaunchScreen.storyboard */,
 				F1883F132450CDBA00D25A9F /* Info.plist */,
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1883F122450CDBA00D25A9F /* LaunchScreen.storyboard in Resources */,
+				077513F5245CEFA900EF8B95 /* HelpIcon.png in Resources */,
 				F1883F0F2450CDBA00D25A9F /* Assets.xcassets in Resources */,
 				F1883F0D2450CDB700D25A9F /* Main.storyboard in Resources */,
 			);
