@@ -35,7 +35,7 @@ class SignUpViewController: UIViewController {
         let doneBtn = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(donePressed))
         toolbar.setItems([doneBtn], animated: true)
         
-//        birthdayText.inputAccessoryView = toolbar
+        birthdayText.inputAccessoryView = toolbar
         birthdayText.inputView = datePicker
         datePicker.datePickerMode = .date
         
